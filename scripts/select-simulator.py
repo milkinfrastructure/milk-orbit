@@ -12,12 +12,14 @@ def choose_simulator(catalog):
         if not runtime.get("isAvailable") or ".iOS-" not in runtime["identifier"]:
             continue
         version = tuple(int(part) for part in re.findall(r"\d+", runtime["version"]))
+        if version < (17,):
+            continue
         for device in catalog["devices"].get(runtime["identifier"], []):
-            if device.get("isAvailable") and device["name"].startswith("iPhone"):
+            if device.get("isAvailable") and device.get("deviceTypeIdentifier", "").startswith("com.apple.CoreSimulator.SimDeviceType.iPhone-"):
                 # Prefer a running phone when several use the same current runtime.
                 candidates.append((version, device.get("state") == "Booted", device["name"], device, runtime))
     if not candidates:
-        raise RuntimeError("No available iPhone simulator found. Install an iOS runtime in Xcode Settings > Components.")
+        raise RuntimeError("No compatible iPhone simulator found. Install iOS 17 or later in Xcode Settings > Components.")
     _, _, _, device, runtime = max(candidates, key=lambda item: item[:3])
     return device, runtime
 

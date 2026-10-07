@@ -12,6 +12,7 @@ fi
 simulator_id="${1:-$(python3 scripts/select-simulator.py)}"
 simulator_state="$(python3 - "$simulator_id" <<'PY'
 import json
+import re
 import subprocess
 import sys
 
@@ -19,13 +20,16 @@ catalog = json.loads(subprocess.check_output(["xcrun", "simctl", "list", "--json
 for runtime in catalog["runtimes"]:
     if not runtime.get("isAvailable") or ".iOS-" not in runtime["identifier"]:
         continue
+    version = tuple(int(part) for part in re.findall(r"\d+", runtime["version"]))
+    if version < (17,):
+        continue
     for device in catalog["devices"].get(runtime["identifier"], []):
         if device["udid"] == sys.argv[1] and device.get("isAvailable"):
-            if not device["name"].startswith("iPhone"):
+            if not device.get("deviceTypeIdentifier", "").startswith("com.apple.CoreSimulator.SimDeviceType.iPhone-"):
                 sys.exit("Choose an iPhone simulator for this play check.")
             print(device["state"])
             sys.exit(0)
-sys.exit("The requested iPhone simulator is unavailable. Run xcrun simctl list devices available.")
+sys.exit("Choose an available iPhone simulator with iOS 17 or later. Run xcrun simctl list devices available.")
 PY
 )"
 bash scripts/build-ios.sh
