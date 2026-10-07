@@ -1,0 +1,362 @@
+[
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 8,
+        "x" : 581,
+        "y" : 496
+      }
+    ],
+    "levelIndex" : 0,
+    "method" : "strength-only, original positions",
+    "name" : "First light",
+    "portalJumps" : 0,
+    "simulationTime" : 7.449999999999897
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 8,
+        "x" : 341,
+        "y" : 225
+      }
+    ],
+    "levelIndex" : 1,
+    "method" : "strength-only, original positions",
+    "name" : "The rock",
+    "portalJumps" : 0,
+    "simulationTime" : 8.274999999999851
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 46,
+        "x" : 892,
+        "y" : 538
+      }
+    ],
+    "levelIndex" : 2,
+    "method" : "strength-only, original positions",
+    "name" : "About turn",
+    "portalJumps" : 0,
+    "simulationTime" : 17.666666666665986
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 19.5,
+        "x" : 237,
+        "y" : 148
+      }
+    ],
+    "levelIndex" : 3,
+    "method" : "strength-only, original positions",
+    "name" : "Heavy neighbour",
+    "portalJumps" : 0,
+    "simulationTime" : 11.574999999999664
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 17,
+        "x" : 181,
+        "y" : 522
+      },
+      {
+        "mass" : 28,
+        "x" : 1241,
+        "y" : 352
+      }
+    ],
+    "levelIndex" : 4,
+    "method" : "strength-only, original positions",
+    "name" : "Slalom",
+    "portalJumps" : 0,
+    "simulationTime" : 10.454166666666394
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 26,
+        "x" : 392,
+        "y" : 316
+      }
+    ],
+    "levelIndex" : 5,
+    "method" : "strength-only, original positions",
+    "name" : "Sleeping giant",
+    "portalJumps" : 0,
+    "simulationTime" : 8.983333333333144
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 8,
+        "x" : 1271,
+        "y" : 384
+      }
+    ],
+    "levelIndex" : 6,
+    "method" : "strength-only, original positions",
+    "name" : "Traffic",
+    "portalJumps" : 0,
+    "simulationTime" : 8.270833333333185
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 50,
+        "x" : 1247,
+        "y" : 381
+      }
+    ],
+    "levelIndex" : 7,
+    "method" : "strength-only, original positions",
+    "name" : "Push and pull",
+    "portalJumps" : 0,
+    "simulationTime" : 6.662499999999942
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 26.5,
+        "x" : 690,
+        "y" : 611
+      },
+      {
+        "mass" : 20,
+        "x" : 146,
+        "y" : 343
+      }
+    ],
+    "levelIndex" : 8,
+    "method" : "strength-only, original positions",
+    "name" : "Shortcut",
+    "portalJumps" : 1,
+    "simulationTime" : 6.420833333333289
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 27,
+        "x" : 440,
+        "y" : 248
+      }
+    ],
+    "levelIndex" : 9,
+    "method" : "strength-only, original positions",
+    "name" : "Event horizon",
+    "portalJumps" : 0,
+    "simulationTime" : 10.833333333333039
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 12,
+        "x" : 1047,
+        "y" : 414
+      }
+    ],
+    "levelIndex" : 10,
+    "method" : "strength-only, original positions",
+    "name" : "Dead stop",
+    "portalJumps" : 0,
+    "simulationTime" : 19.708333333332536
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 8,
+        "x" : 521,
+        "y" : 299
+      },
+      {
+        "mass" : 30,
+        "x" : 870,
+        "y" : 348
+      }
+    ],
+    "levelIndex" : 11,
+    "method" : "strength-only, original positions",
+    "name" : "Sideways",
+    "portalJumps" : 0,
+    "simulationTime" : 17.104166666666018
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 20,
+        "x" : 968,
+        "y" : 434
+      },
+      {
+        "mass" : 46.5,
+        "x" : 55,
+        "y" : 135
+      }
+    ],
+    "levelIndex" : 12,
+    "method" : "strength-only, original positions",
+    "name" : "Checkpoint",
+    "portalJumps" : 0,
+    "simulationTime" : 11.891666666666312
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 23,
+        "x" : 1354,
+        "y" : 253
+      },
+      {
+        "mass" : 10,
+        "x" : 118,
+        "y" : 329
+      }
+    ],
+    "levelIndex" : 13,
+    "method" : "strength-only, original positions",
+    "name" : "Keep off",
+    "portalJumps" : 0,
+    "simulationTime" : 9.483333333333116
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 15,
+        "x" : 623,
+        "y" : 216
+      }
+    ],
+    "levelIndex" : 14,
+    "method" : "strength-only, original positions",
+    "name" : "Catch",
+    "portalJumps" : 0,
+    "simulationTime" : 6.733333333333271
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 46,
+        "x" : 893,
+        "y" : 659
+      },
+      {
+        "mass" : 13,
+        "x" : 574,
+        "y" : 708
+      }
+    ],
+    "levelIndex" : 15,
+    "method" : "strength-only, original positions",
+    "name" : "Dead reckoning",
+    "portalJumps" : 0,
+    "simulationTime" : 17.249999999999343
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 16.5,
+        "x" : 333,
+        "y" : 534
+      }
+    ],
+    "levelIndex" : 16,
+    "method" : "strength-only, original positions",
+    "name" : "Rationed",
+    "portalJumps" : 0,
+    "simulationTime" : 11.362499999999676
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 45.5,
+        "x" : 1072,
+        "y" : 219
+      },
+      {
+        "mass" : 45.5,
+        "x" : 940,
+        "y" : 360
+      }
+    ],
+    "levelIndex" : 17,
+    "method" : "strength-only, original positions",
+    "name" : "Tug",
+    "portalJumps" : 0,
+    "simulationTime" : 12.416666666666282
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 17,
+        "x" : 309,
+        "y" : 253
+      },
+      {
+        "mass" : 49.5,
+        "x" : 628,
+        "y" : 835
+      }
+    ],
+    "levelIndex" : 18,
+    "method" : "strength-only, original positions",
+    "name" : "Relay",
+    "portalJumps" : 0,
+    "simulationTime" : 12.929166666666253
+  },
+  {
+    "candidatesTried" : 1,
+    "editorVerified" : true,
+    "holes" : [
+      {
+        "mass" : 100,
+        "x" : 771,
+        "y" : 320
+      }
+    ],
+    "levelIndex" : 19,
+    "method" : "strength-only, original positions",
+    "name" : "Final orbit",
+    "portalJumps" : 0,
+    "simulationTime" : 13.98333333333286
+  }
+]

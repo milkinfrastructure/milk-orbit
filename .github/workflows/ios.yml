@@ -1,0 +1,73 @@
+name: iOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      developer_dir:
+        description: Optional installed Xcode Contents/Developer path; blank uses runner default
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    container: swift:6.0.3-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test deterministic game core
+        shell: bash
+        run: swift test 2>&1 | tee core-tests.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: core-test-results
+          path: core-tests.log
+          retention-days: 14
+
+  ios:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select optional installed Xcode
+        env:
+          MILKORBIT_REQUESTED_DEVELOPER_DIR: ${{ inputs.developer_dir }}
+        shell: bash
+        run: |
+          if [ -n "$MILKORBIT_REQUESTED_DEVELOPER_DIR" ]; then
+            test -x "$MILKORBIT_REQUESTED_DEVELOPER_DIR/usr/bin/xcodebuild"
+            printf 'DEVELOPER_DIR=%s\n' "$MILKORBIT_REQUESTED_DEVELOPER_DIR" >> "$GITHUB_ENV"
+          fi
+      - name: Show selected SDK
+        run: xcodebuild -version && xcodebuild -showsdks
+      - name: Verify package and project
+        shell: bash
+        run: bash scripts/check.sh 2>&1 | tee ios-checks.log
+      - name: Build unsigned iOS simulator app
+        shell: bash
+        run: bash scripts/build-ios.sh 2>&1 | tee ios-build.log
+      - name: Package simulator app
+        if: always()
+        shell: bash
+        run: |
+          if [ -d DerivedData/Build/Products/Debug-iphonesimulator/MilkOrbit.app ]; then
+            ditto -c -k --keepParent DerivedData/Build/Products/Debug-iphonesimulator/MilkOrbit.app MilkOrbit-Simulator.zip
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ios-simulator-build
+          path: |
+            ios-checks.log
+            ios-build.log
+            MilkOrbit-Simulator.zip
+          retention-days: 14

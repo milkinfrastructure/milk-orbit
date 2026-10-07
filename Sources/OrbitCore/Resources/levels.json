@@ -1,0 +1,1513 @@
+[
+  {
+    "name": "First light",
+    "hint": "Tap to place a black hole. Hold, then drag up or down to change its strength. Launch to bend the ship's course.",
+    "matter": 40,
+    "answer": [
+      {
+        "x": 581,
+        "y": 496,
+        "mass": 8
+      }
+    ],
+    "ship": {
+      "x": 220,
+      "y": 640,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1320,
+      "y": 240,
+      "r": 36
+    },
+    "bodies": []
+  },
+  {
+    "name": "The rock",
+    "hint": "Something is in the way. Go around it.",
+    "matter": 60,
+    "answer": [
+      {
+        "x": 341,
+        "y": 225,
+        "mass": 8
+      }
+    ],
+    "ship": {
+      "x": 200,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1380,
+      "y": 180,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 400,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 460,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 520,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 580,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 640,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 700,
+        "r": 30
+      }
+    ]
+  },
+  {
+    "name": "About turn",
+    "hint": "The station is behind you. A close pass turns the ship hardest, but stray inside a hole and it implodes.",
+    "matter": 70,
+    "answer": [
+      {
+        "x": 892,
+        "y": 538,
+        "mass": 45.9
+      }
+    ],
+    "ship": {
+      "x": 760,
+      "y": 300,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 300,
+      "y": 620,
+      "r": 36
+    },
+    "bodies": []
+  },
+  {
+    "name": "Heavy neighbour",
+    "hint": "Planets pull too, and they are solid.",
+    "matter": 60,
+    "answer": [
+      {
+        "x": 237,
+        "y": 148,
+        "mass": 19.5
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 330,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1380,
+      "y": 640,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "planet",
+        "x": 800,
+        "y": 450,
+        "r": 64,
+        "mass": 45
+      }
+    ]
+  },
+  {
+    "name": "Slalom",
+    "hint": "One hole can hand the ship on to the next.",
+    "matter": 100,
+    "answer": [
+      {
+        "x": 181,
+        "y": 522,
+        "mass": 16.9
+      },
+      {
+        "x": 1241,
+        "y": 352,
+        "mass": 27.8
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 720,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1420,
+      "y": 720,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 20,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 80,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 140,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 200,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 260,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 320,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 380,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 440,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 500,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 400,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 460,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 520,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 580,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 640,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 700,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 760,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 820,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1040,
+        "y": 880,
+        "r": 30
+      }
+    ]
+  },
+  {
+    "name": "Sleeping giant",
+    "hint": "That hole was here before you, and it is hungry. You cannot remove it.",
+    "matter": 60,
+    "answer": [
+      {
+        "x": 392,
+        "y": 316,
+        "mass": 25.9
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1460,
+      "y": 450,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "hole",
+        "x": 820,
+        "y": 480,
+        "mass": 90
+      }
+    ]
+  },
+  {
+    "name": "Traffic",
+    "hint": "Some rocks will not sit still. A longer way round arrives later.",
+    "matter": 80,
+    "answer": [
+      {
+        "x": 1271,
+        "y": 384,
+        "mass": 8
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1440,
+      "y": 200,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 20,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 87.5,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 155,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 222.5,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 290,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 610,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 677.5,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 745,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 812.5,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 880,
+        "r": 34
+      },
+      {
+        "type": "asteroid",
+        "x": 700,
+        "y": 370,
+        "r": 34,
+        "patrol": {
+          "x": 700,
+          "y": 530,
+          "period": 4
+        }
+      },
+      {
+        "type": "asteroid",
+        "x": 1100,
+        "y": 300,
+        "r": 30,
+        "orbit": {
+          "cx": 1100,
+          "cy": 300,
+          "radius": 150,
+          "period": 6
+        }
+      },
+      {
+        "type": "asteroid",
+        "x": 1100,
+        "y": 300,
+        "r": 30,
+        "orbit": {
+          "cx": 1100,
+          "cy": 300,
+          "radius": 150,
+          "period": 6,
+          "phase": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "name": "Push and pull",
+    "hint": "A white hole shoves the ship away. Use the shove.",
+    "matter": 70,
+    "answer": [
+      {
+        "x": 1247,
+        "y": 381,
+        "mass": 49.8
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1420,
+      "y": 450,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "repulsor",
+        "x": 1240,
+        "y": 450,
+        "r": 24,
+        "mass": 55
+      },
+      {
+        "type": "planet",
+        "x": 700,
+        "y": 250,
+        "r": 50,
+        "mass": 30
+      },
+      {
+        "type": "planet",
+        "x": 700,
+        "y": 650,
+        "r": 50,
+        "mass": 30
+      }
+    ]
+  },
+  {
+    "name": "Shortcut",
+    "hint": "A wormhole spits the ship out of its twin, at the same speed and heading.",
+    "matter": 80,
+    "answer": [
+      {
+        "x": 690,
+        "y": 611,
+        "mass": 26.3
+      },
+      {
+        "x": 146,
+        "y": 343,
+        "mass": 20
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 220,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1340,
+      "y": 400,
+      "r": 34
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 1480,
+        "y": 330,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1473.1851652578137,
+        "y": 381.76380902050414,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1453.2050807568878,
+        "y": 430,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1421.4213562373095,
+        "y": 471.4213562373095,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1380,
+        "y": 503.2050807568877,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1331.7638090205041,
+        "y": 523.1851652578137,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1280,
+        "y": 530,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1228.2361909794959,
+        "y": 523.1851652578137,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1180,
+        "y": 503.20508075688775,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1138.5786437626905,
+        "y": 471.4213562373095,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1106.7949192431122,
+        "y": 430,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1086.8148347421863,
+        "y": 381.7638090205042,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1080,
+        "y": 330,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1086.8148347421863,
+        "y": 278.2361909794959,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1106.7949192431122,
+        "y": 229.99999999999997,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1138.5786437626905,
+        "y": 188.57864376269052,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1180,
+        "y": 156.7949192431123,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1228.2361909794959,
+        "y": 136.81483474218635,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1280,
+        "y": 130,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1331.7638090205041,
+        "y": 136.81483474218635,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1380,
+        "y": 156.79491924311228,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1421.4213562373095,
+        "y": 188.57864376269046,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1453.2050807568876,
+        "y": 229.99999999999991,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1473.1851652578137,
+        "y": 278.23619097949586,
+        "r": 30
+      },
+      {
+        "type": "wormhole",
+        "id": "a",
+        "twin": "b",
+        "x": 560,
+        "y": 700,
+        "r": 26
+      },
+      {
+        "type": "wormhole",
+        "id": "b",
+        "twin": "a",
+        "x": 1180,
+        "y": 260,
+        "r": 26
+      }
+    ]
+  },
+  {
+    "name": "Event horizon",
+    "hint": "Everything at once.",
+    "matter": 90,
+    "answer": [
+      {
+        "x": 440,
+        "y": 248,
+        "mass": 27
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 160,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1400,
+      "y": 740,
+      "r": 34
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 1252.7756813566455,
+        "y": 825,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1234.58237200143,
+        "y": 779.2046980262148,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1230.2876130938844,
+        "y": 730.115379085219,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1240.2522544663955,
+        "y": 681.8565756346363,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1263.6390572316425,
+        "y": 638.4830394105263,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1298.4830394105263,
+        "y": 603.6390572316427,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1341.856575634636,
+        "y": 580.2522544663956,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1390.1153790852193,
+        "y": 570.2876130938844,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1439.204698026215,
+        "y": 574.58237200143,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1485,
+        "y": 592.7756813566455,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1523.6535190674183,
+        "y": 623.3389215623152,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1551.91754885498,
+        "y": 663.7041393659214,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1567.4173180120754,
+        "y": 710.4798097966217,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1568.8505208161303,
+        "y": 759.7357954012889,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1556.0967381696466,
+        "y": 807.3335602266567,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1530.2275553302263,
+        "y": 849.2738936467117,
+        "r": 30
+      },
+      {
+        "type": "hole",
+        "x": 800,
+        "y": 450,
+        "mass": 110
+      },
+      {
+        "type": "wormhole",
+        "id": "a",
+        "twin": "b",
+        "x": 300,
+        "y": 720,
+        "r": 26
+      },
+      {
+        "type": "wormhole",
+        "id": "b",
+        "twin": "a",
+        "x": 1150,
+        "y": 200,
+        "r": 26
+      },
+      {
+        "type": "asteroid",
+        "x": 1150,
+        "y": 480,
+        "r": 30,
+        "patrol": {
+          "x": 1350,
+          "y": 480,
+          "period": 5
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dead stop",
+    "hint": "Out of fuel. The ship will not move until something pulls it.",
+    "matter": 60,
+    "answer": [
+      {
+        "x": 1047,
+        "y": 414,
+        "mass": 12.2
+      }
+    ],
+    "ship": {
+      "x": 300,
+      "y": 450,
+      "speed": 0
+    },
+    "goal": {
+      "x": 900,
+      "y": 450,
+      "r": 36
+    },
+    "bodies": []
+  },
+  {
+    "name": "Sideways",
+    "hint": "No fuel, and no straight line. Two pulls make a curve.",
+    "matter": 90,
+    "answer": [
+      {
+        "x": 521,
+        "y": 299,
+        "mass": 8
+      },
+      {
+        "x": 870,
+        "y": 348,
+        "mass": 29.9
+      }
+    ],
+    "ship": {
+      "x": 250,
+      "y": 650,
+      "speed": 0
+    },
+    "goal": {
+      "x": 1250,
+      "y": 250,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 750,
+        "y": 300,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 750,
+        "y": 360,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 750,
+        "y": 420,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 750,
+        "y": 480,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 750,
+        "y": 540,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 750,
+        "y": 600,
+        "r": 30
+      }
+    ]
+  },
+  {
+    "name": "Checkpoint",
+    "hint": "The station stays shut until the ship has passed through the beacon.",
+    "matter": 80,
+    "answer": [
+      {
+        "x": 968,
+        "y": 434,
+        "mass": 19.8
+      },
+      {
+        "x": 55,
+        "y": 135,
+        "mass": 46.4
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1440,
+      "y": 450,
+      "r": 36
+    },
+    "beacons": [
+      {
+        "x": 800,
+        "y": 200,
+        "r": 34
+      }
+    ],
+    "bodies": []
+  },
+  {
+    "name": "Keep off",
+    "hint": "No holes may be placed in the hatched zone.",
+    "matter": 80,
+    "answer": [
+      {
+        "x": 1354,
+        "y": 253,
+        "mass": 22.8
+      },
+      {
+        "x": 118,
+        "y": 329,
+        "mass": 10.2
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1440,
+      "y": 200,
+      "r": 36
+    },
+    "zones": [
+      {
+        "x": 420,
+        "y": 0,
+        "w": 760,
+        "h": 900
+      }
+    ],
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 330,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 390,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 450,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 510,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 800,
+        "y": 570,
+        "r": 30
+      }
+    ]
+  },
+  {
+    "name": "Catch",
+    "hint": "The station is on the move. Arrive when it does.",
+    "matter": 70,
+    "answer": [
+      {
+        "x": 623,
+        "y": 216,
+        "mass": 15
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 700,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1100,
+      "y": 400,
+      "r": 30,
+      "orbit": {
+        "cx": 1100,
+        "cy": 400,
+        "radius": 220,
+        "period": 8
+      }
+    },
+    "bodies": [
+      {
+        "type": "planet",
+        "x": 1100,
+        "y": 400,
+        "r": 50,
+        "mass": 40
+      },
+      {
+        "type": "asteroid",
+        "x": 1100,
+        "y": 400,
+        "r": 28,
+        "orbit": {
+          "cx": 1100,
+          "cy": 400,
+          "radius": 220,
+          "period": 8,
+          "phase": 0.3333333333333333
+        }
+      },
+      {
+        "type": "asteroid",
+        "x": 1100,
+        "y": 400,
+        "r": 28,
+        "orbit": {
+          "cx": 1100,
+          "cy": 400,
+          "radius": 220,
+          "period": 8,
+          "phase": 0.6666666666666666
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dead reckoning",
+    "hint": "No fuel, and a beacon to pass on the way.",
+    "matter": 110,
+    "answer": [
+      {
+        "x": 893,
+        "y": 659,
+        "mass": 45.8
+      },
+      {
+        "x": 574,
+        "y": 708,
+        "mass": 12.9
+      }
+    ],
+    "ship": {
+      "x": 200,
+      "y": 200,
+      "speed": 0
+    },
+    "goal": {
+      "x": 1300,
+      "y": 250,
+      "r": 36
+    },
+    "beacons": [
+      {
+        "x": 700,
+        "y": 650,
+        "r": 36
+      }
+    ],
+    "bodies": []
+  },
+  {
+    "name": "Rationed",
+    "hint": "One hole is all the plotter can hold. Let the planets do the rest.",
+    "matter": 80,
+    "limit": 1,
+    "answer": [
+      {
+        "x": 333,
+        "y": 534,
+        "mass": 16.7
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 450,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1400,
+      "y": 700,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "planet",
+        "x": 700,
+        "y": 300,
+        "r": 55,
+        "mass": 50
+      },
+      {
+        "type": "planet",
+        "x": 1050,
+        "y": 620,
+        "r": 45,
+        "mass": 35
+      },
+      {
+        "type": "asteroid",
+        "x": 880,
+        "y": 20,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 880,
+        "y": 80,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 880,
+        "y": 140,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 880,
+        "y": 200,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 880,
+        "y": 260,
+        "r": 30
+      }
+    ]
+  },
+  {
+    "name": "Tug",
+    "hint": "No fuel, and it is already falling.",
+    "matter": 120,
+    "answer": [
+      {
+        "x": 1072,
+        "y": 219,
+        "mass": 45.7
+      },
+      {
+        "x": 940,
+        "y": 360,
+        "mass": 45.6
+      }
+    ],
+    "ship": {
+      "x": 560,
+      "y": 450,
+      "speed": 0
+    },
+    "goal": {
+      "x": 1300,
+      "y": 300,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "hole",
+        "x": 220,
+        "y": 450,
+        "mass": 45
+      }
+    ]
+  },
+  {
+    "name": "Relay",
+    "hint": "Three rooms, and no door between them. Take them one at a time.",
+    "matter": 140,
+    "answer": [
+      {
+        "x": 309,
+        "y": 253,
+        "mass": 16.8
+      },
+      {
+        "x": 628,
+        "y": 835,
+        "mass": 49.7
+      }
+    ],
+    "ship": {
+      "x": 160,
+      "y": 160,
+      "angle": 0,
+      "speed": 150
+    },
+    "goal": {
+      "x": 1400,
+      "y": 700,
+      "r": 36
+    },
+    "bodies": [
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 20,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 81.42857142857142,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 142.85714285714283,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 204.28571428571428,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 265.71428571428567,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 327.14285714285717,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 388.57142857142856,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 450,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 511.4285714285714,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 572.8571428571429,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 634.2857142857143,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 695.7142857142857,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 757.1428571428571,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 818.5714285714286,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 560,
+        "y": 880,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 20,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 81.42857142857142,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 142.85714285714283,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 204.28571428571428,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 265.71428571428567,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 327.14285714285717,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 388.57142857142856,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 450,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 511.4285714285714,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 572.8571428571429,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 634.2857142857143,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 695.7142857142857,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 757.1428571428571,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 818.5714285714286,
+        "r": 30
+      },
+      {
+        "type": "asteroid",
+        "x": 1060,
+        "y": 880,
+        "r": 30
+      },
+      {
+        "type": "wormhole",
+        "id": "a",
+        "twin": "b",
+        "x": 300,
+        "y": 700,
+        "r": 28
+      },
+      {
+        "type": "wormhole",
+        "id": "b",
+        "twin": "a",
+        "x": 700,
+        "y": 200,
+        "r": 28
+      },
+      {
+        "type": "wormhole",
+        "id": "c",
+        "twin": "d",
+        "x": 940,
+        "y": 700,
+        "r": 28
+      },
+      {
+        "type": "wormhole",
+        "id": "d",
+        "twin": "c",
+        "x": 1200,
+        "y": 240,
+        "r": 28
+      }
+    ]
+  },
+  {
+    "name": "Final orbit",
+    "hint": "No fuel, a beacon, a moving station, and three holes to do it with.",
+    "matter": 130,
+    "limit": 3,
+    "answer": [
+      {
+        "x": 771,
+        "y": 320,
+        "mass": 100
+      }
+    ],
+    "ship": {
+      "x": 200,
+      "y": 750,
+      "speed": 0
+    },
+    "goal": {
+      "x": 800,
+      "y": 450,
+      "r": 36,
+      "orbit": {
+        "cx": 800,
+        "cy": 450,
+        "radius": 260,
+        "period": 16
+      }
+    },
+    "beacons": [
+      {
+        "x": 1350,
+        "y": 200,
+        "r": 36
+      }
+    ],
+    "zones": [
+      {
+        "x": 420,
+        "y": 620,
+        "w": 500,
+        "h": 280
+      }
+    ],
+    "bodies": [
+      {
+        "type": "hole",
+        "x": 800,
+        "y": 450,
+        "mass": 80
+      }
+    ]
+  }
+]

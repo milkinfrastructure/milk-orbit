@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AppDelegate.swift */; };
+		A10000000000000000000002 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* GameViewController.swift */; };
+		A10000000000000000000003 /* GameFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* GameFieldView.swift */; };
+		A10000000000000000000004 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* Palette.swift */; };
+		A10000000000000000000005 /* OrbitCore in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000001 /* OrbitCore */; };
+		A10000000000000000000006 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* PrivacyInfo.xcprivacy */; };
+		A10000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* Assets.xcassets */; };
+		A10000000000000000000008 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010; };
+		A10000000000000000000009 /* Silkscreen-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011; };
+		A10000000000000000000010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012; };
+		A10000000000000000000011 /* VictoryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* VictoryPresentation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* GameFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFieldView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		A20000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000007 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A20000000000000000000008 /* MilkOrbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkOrbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/MilkOrbitApp/Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000010 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resources/Silkscreen-Regular.ttf; sourceTree = "<group>"; };
+		A20000000000000000000011 /* Silkscreen-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/Silkscreen-OFL.txt; sourceTree = "<group>"; };
+		A20000000000000000000012 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A20000000000000000000013 /* VictoryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryPresentation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				A10000000000000000000005 /* OrbitCore in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* App */,
+				A20000000000000000000009 /* Assets.xcassets */,
+				A40000000000000000000003 /* Config */,
+				A40000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* AppDelegate.swift */,
+				A20000000000000000000002 /* GameViewController.swift */,
+				A20000000000000000000003 /* GameFieldView.swift */,
+				A20000000000000000000004 /* Palette.swift */,
+				A20000000000000000000013 /* VictoryPresentation.swift */,
+				A20000000000000000000010 /* Silkscreen-Regular.ttf */,
+				A20000000000000000000011 /* Silkscreen-OFL.txt */,
+			);
+			name = App;
+			path = Sources/MilkOrbitApp;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* App.xcconfig */,
+				A20000000000000000000006 /* Info.plist */,
+				A20000000000000000000012 /* LaunchScreen.storyboard */,
+				A20000000000000000000007 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000008 /* MilkOrbit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* MilkOrbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "MilkOrbit" */;
+			buildPhases = (
+				A30000000000000000000002 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A30000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = MilkOrbit;
+			packageProductDependencies = (
+				A90000000000000000000001 /* OrbitCore */,
+			);
+			productName = MilkOrbit;
+			productReference = A20000000000000000000008 /* MilkOrbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "MilkOrbit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			packageReferences = (
+				A90000000000000000000002 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 110;
+			productRefGroup = A40000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* MilkOrbit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				A10000000000000000000006 /* PrivacyInfo.xcprivacy in Resources */,
+				A10000000000000000000007 /* Assets.xcassets in Resources */,
+				A10000000000000000000008 /* Silkscreen-Regular.ttf in Resources */,
+				A10000000000000000000009 /* Silkscreen-OFL.txt in Resources */,
+				A10000000000000000000010 /* LaunchScreen.storyboard in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				A10000000000000000000001 /* AppDelegate.swift in Sources */,
+				A10000000000000000000002 /* GameViewController.swift in Sources */,
+				A10000000000000000000003 /* GameFieldView.swift in Sources */,
+				A10000000000000000000004 /* Palette.swift in Sources */,
+				A10000000000000000000011 /* VictoryPresentation.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A70000000000000000000001 /* Debug configuration for PBXProject "MilkOrbit" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A70000000000000000000002 /* Release configuration for PBXProject "MilkOrbit" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A70000000000000000000003 /* Debug configuration for PBXNativeTarget "MilkOrbit" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000005 /* App.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A70000000000000000000004 /* Release configuration for PBXNativeTarget "MilkOrbit" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000005 /* App.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "MilkOrbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000001 /* Debug configuration for PBXProject "MilkOrbit" */,
+				A70000000000000000000002 /* Release configuration for PBXProject "MilkOrbit" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "MilkOrbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000003 /* Debug configuration for PBXNativeTarget "MilkOrbit" */,
+				A70000000000000000000004 /* Release configuration for PBXNativeTarget "MilkOrbit" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A90000000000000000000002 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90000000000000000000001 /* OrbitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90000000000000000000002 /* XCLocalSwiftPackageReference "." */;
+			productName = OrbitCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
