@@ -85,7 +85,7 @@ final class TrailPolicyTests: XCTestCase {
     func testRenamedCatalogOverlayCannotEvictAnotherSectorsTrail() throws {
         let current = (0..<20).map(fixture)
         var legacy = current
-        legacy[19].name = "Legacy final sector"
+        legacy[19].name = "ZZ legacy final sector"
         let session = GameSession(level: legacy[0])
         var expected: [String: [Vec2?]] = [:]
         for level in legacy {
