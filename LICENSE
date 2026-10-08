@@ -1,27 +1,3 @@
-License scope
-=============
-
-The MIT License below applies only to original contributions for which Milk
-Infrastructure holds the rights, including its rights, if any, in artwork
-generated for this project. It does not grant rights in third-party material.
-
-In particular:
-
-- The adapted Hole Punch implementation, level definitions, supplied solutions
-  and related regression material are excluded from this MIT grant. No applicable
-  upstream redistribution license or permission has been verified as of
-  2026-10-07. Affected material includes upstream-derived portions of OrbitCore,
-  Sources/OrbitCore/Resources/levels.json and related test fixtures. Public
-  distribution of the complete current game remains pending that permission.
-- Silkscreen Regular remains under the SIL Open Font License 1.1, reproduced in
-  Sources/MilkOrbitApp/Resources/Silkscreen-OFL.txt.
-- Material from milk-landing retains its original MIT license, reproduced in
-  LICENSES/Milk-Landing-MIT.txt.
-
-See THIRD_PARTY_NOTICES.md for attribution and source details. This scope
-statement does not change the terms of the third-party licenses or establish
-permission for the excluded upstream material.
-
 MIT License
 
 Copyright (c) 2026 Milk Infrastructure

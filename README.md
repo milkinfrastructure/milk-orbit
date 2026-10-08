@@ -41,8 +41,8 @@ GitHub Actions defines Linux core tests and an unsigned macOS Simulator build. T
 - `Sources/MilkOrbitApp`: UIKit app, rendering, input, haptics, and artwork.
 - `Tests/OrbitCoreTests`: core regression tests and reference fixtures.
 
-## Credits and release status
+## License and credit
 
-Milk Orbit adapts [Hole Punch](https://notoriousbfg.com/hole-punch/) by notoriousbfg. This checkout is undergoing local release preparation; **redistribution permission for the adapted upstream material remains pending**.
+[MIT](LICENSE). Based on [Hole Punch](https://notoriousbfg.com/hole-punch/) by [notoriousbfg](https://github.com/notoriousbfg).
 
-The [MIT license](LICENSE) covers **Milk-owned contributions only**. Upstream code, levels, fixtures, branding, fonts, and other third-party material are subject to their own rights and terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for provenance and licensing scope. The bundled Silkscreen font includes its full SIL Open Font License.
+Silkscreen retains its [SIL Open Font License](Sources/MilkOrbitApp/Resources/Silkscreen-OFL.txt); the Milk carton retains its [original MIT license](LICENSES/Milk-Landing-MIT.txt).

@@ -1,6 +1,6 @@
 # Contributing
 
-Read the setup and release status in [README.md](README.md) and the provenance in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Redistribution permission for the adapted upstream material is pending; the repository's MIT license applies only to Milk-owned contributions. Submit only material you have permission to contribute, with any required attribution and license text.
+Read the setup in [README.md](README.md). Keep contributions focused and include any license text required by new dependencies or assets.
 
 ## Make a change
 
